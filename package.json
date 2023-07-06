@@ -1,6 +1,7 @@
 {
   "name": "eshop-app",
   "version": "0.1.0",
+  "author": "Parul Rathva",
   "private": true,
   "scripts": {
     "dev": "next dev",
