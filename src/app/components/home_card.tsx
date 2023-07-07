@@ -1,6 +1,10 @@
 import cardData from "../api/details"
 
-export default function Card() {
+export default async function Card() {
+
+    const res = await fetch('https://api.github.com/repos/vercel/next.js');
+    const data = await res.json();
+
     return (
         <>
             {
